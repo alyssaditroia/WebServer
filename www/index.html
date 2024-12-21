@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Alyssa DiTroia Home</title>
+        <meta name="description" content="Personal Portfolio Website by Alyssa DiTroia">
+        <meta name="keywords" content="Portfolio, Personal Portfolio, Software Engineering Portfolio">
+        <style type="text/css">
+            #main_header{
+                text-align:center;
+                background-color:black;
+                color:white;
+                padding:10px;
+            }
+            #main_footer{
+                text-align:center;
+                font-size:16px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Headings -->
+         <header id="main_header">
+            <h1>Alyssa DiTroia</h1>
+         </header>
+        
+
+        <!-- Images -->
+        <img src="id_photo.jpg" alt="Photo of Alyssa DiTroia" width ="100">
+        <br>
+
+        <p>Welcome To <strong>Alyssa Ditroia's</strong> Web Server</p> 
+        <nav>   
+            <a href="projects.html">Projects</a>
+        </nav>
+                <!-- Lists -->
+                <ul>
+                    <li>Project Page 1</li>
+                    <li>Project Page 2</li>
+                    <li>Project Page 3</li>
+                </ul>
+        <p>
+            <a href="https://github.com/alyssaditroia" target="_blank">My GitHub</a>
+        </p>
+        <!-- Lists -->
+        <ol>
+            <li>Ordered List Item 1</li>
+            <li>Ordered List Item 2</li>
+        </ol>
+
+        <!-- Table -->
+         <!--
+         <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Alyssa DiTroia</td>
+                    <td>aditroia@asu.edu</td>
+                    <td>(480)-650-1517</td>   
+                </tr>
+            </tbody>
+         </table>
+        -->
+         <br>
+         <hr>
+         <h2>Contact Me</h2>
+         <!-- Form -->
+          <form action="process.php" method="POST">
+            <div>
+                <label>First Name</label>
+                <input type="text" name="first_name"
+                placeholder= "Enter first name">
+            </div>
+            <br>
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="last_name"
+                placeholder="Enter last name">
+            </div>
+            <br>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email"
+                placeholder="Enter email">
+            </div>
+            <br>
+            <div>
+                <label>Message</label>
+                <textarea name="message" placeholder="Write your message here"></textarea>
+            </div>
+            <div>
+                <br>
+                <label>Prefered Form of Contact</label>
+                <select name="contact_type">
+                    <option value="email">Email</option>
+                    <option value="phone">Phone</option>
+                </select>
+            </div>
+            <br>
+            <input type="submit" name="submit" value="Send">
+          </form>
+          <br>
+          <!--
+          <button>Click Me</button>
+          <br>
+        -->
+
+          <div style="margin-top:500px"></div>
+          <br>
+          <footer id="main_footer">
+            <p>Copyright &copy; 2024, Alyssa DiTroia</p>
+        </footer>
+    </body>
+</html>
+
