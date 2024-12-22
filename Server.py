@@ -6,7 +6,7 @@ import os
 import mimetypes
 
 HOST = "127.0.0.1"
-PORT = 9000
+PORT = 8080
 RESPONSE = b"""\
 HTTP/1.1 200 OK
 Content-type: text/html
