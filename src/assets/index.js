@@ -32,6 +32,9 @@ import amendola from "./company/amendola.jpg";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import refi from "./refi.png";
+import ascii from "./ascii.png";
+import helpsys from "./helpsys.png";
 
 export {
   logo,
@@ -63,6 +66,9 @@ export {
   allied,
   amendola,
   carrent,
+  refi,
+  ascii,
+  helpsys,
   jobit,
   tripguide,
 };

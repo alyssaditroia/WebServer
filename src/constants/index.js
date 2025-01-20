@@ -23,6 +23,9 @@ import {
     tesla,
     shopify,
     carrent,
+    ascii,
+    refi,
+    helpsys,
     jobit,
     tripguide,
     linux,
@@ -210,7 +213,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: helpsys,
       source_code_link: "https://github.com/alyssaditroia/CSE360",
     },
     {
@@ -231,8 +234,28 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: ascii,
       source_code_link: "https://github.com/alyssaditroia/JPG_TO_ASCII",
+    },    {
+      name: "RefiGenius",
+      description:
+        "A mobile application for consumers to make more informed decisions on their mortgage refinancing options.",
+      tags: [
+        {
+          name: "swift",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "RESTapi",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: refi,
+      source_code_link: "https://github.com/alyssaditroia/RefiGenius",
     },
   ];
   
